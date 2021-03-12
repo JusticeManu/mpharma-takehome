@@ -3,7 +3,7 @@
 Clone the repository if this is your first time.
 
 ```
-$ git clone hhttps://github.com/JusticeManu/mpharma-takehome.git
+$ git clone https://github.com/JusticeManu/mpharma-takehome.git
 ```
 
 ## 🚀 BRANCHING/GIT STUFF
