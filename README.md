@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+## 🚀 GETTING A LOCAL COPY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone the repository if this is your first time.
 
-## Available Scripts
+```
+$ git clone hhttps://github.com/JusticeManu/mpharma-takehome.git
+```
 
-In the project directory, you can run:
+## 🚀 BRANCHING/GIT STUFF
 
-### `yarn start`
+This repository consists of server **master** branche.
+master is where we deploy from and you will usually not work from here.
+dev branch is the branch that you will mostly create **PR** against.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**1. To work on this project you can create a new branch and navigate into the new branch**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+git checkout origin/branchname
+```
 
-### `yarn test`
+**2. Get latest changes by running this command(\***This is very important and will solve a lot of merge conflicts**\*)
+Don't forget this step**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git pull origin branchname
+```
 
-### `yarn build`
+**3. create your own branch(preferably should be of the feature you are working on) while still
+in the new branch**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Example.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git checkout -b mpharma-EditForm
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+after working on your branch, push the branch you worked on and raise a **PR**
 
-### `yarn eject`
+Example
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+git push origin mpharma-EditForm
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Now raise a PR from the branch you pushed(eg: **_connect-auth-to-backend_**) to the **dev** branch
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Wait for code review and merge. You can now delete your branch and create a new one
+reflecting the new feature that you will work on.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 RUNNING THE PROJECT)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+$ cd mpharma
+$ npm install
+$ npm run start
+```
 
-### Code Splitting
+Everything else has been setup and should work accordingly 😀
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**HAPPY HACKING**
