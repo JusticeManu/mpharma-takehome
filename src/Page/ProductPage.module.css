@@ -12,6 +12,8 @@
   justify-content: center;
 }
 .paper {
+  width: 500px;
+  height: 200px;
 }
 .formContainer {
   display: flex;
@@ -21,6 +23,24 @@
 }
 .formContainer > input {
   margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.formSubmit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.formSubmit > input {
+  margin: 10px;
+  height: 40px;
+  width: 200px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 10px;
+}
+.formSubmit > input:hover {
+  background-color: rgb(9, 48, 121);
 }
 .loader {
   display: flex;

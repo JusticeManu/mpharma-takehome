@@ -17,9 +17,8 @@ function ProductPage(props) {
   // const onOpen = () => setIsOpen(true);
   const [editState, setEditState] = useState(false);
   const [products, setProducts] = useState([]);
-  const arrayToHoldProducts = [...products];
   const [open, setOpen] = React.useState(false);
-  const [productEditId, setProductEditId] = [];
+
   const [productToEdit, setProductEdit] = useState({});
   const { register, handleSubmit, watch, errors } = useForm();
   const [loading, setLoading] = useState(false);
@@ -174,6 +173,7 @@ function ProductPage(props) {
                 <form onSubmit={handleSubmit(onSubmit)}>
                   {/* register your input into the hook by invoking the "register" function */}
                   <div className={styles.formContainer}>
+                    <h2 style={{ textAlign: "center" }}>Add Product</h2>
                     <input
                       name="name"
                       defaultValue={
@@ -197,7 +197,10 @@ function ProductPage(props) {
                       <span>This field is required</span>
                     )}
 
-                    <input type="submit" />
+                    <div className={styles.formSubmit}>
+                      {" "}
+                      <input type="submit" />
+                    </div>
                   </div>
                 </form>
               </div>
