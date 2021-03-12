@@ -4,7 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+##Navigate
+Clone the repository by copying the http url
+
+Open your Text Editor and type git
+
 In the project directory, you can run:
+ ##################################
+ 
 
 ### `yarn start`
 
