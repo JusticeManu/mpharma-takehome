@@ -42,7 +42,7 @@ Example
 git push origin mpharma-EditForm
 ```
 
-Now raise a PR from the branch you pushed(eg: **_connect-auth-to-backend_**) to the **dev** branch
+Now raise a PR from the branch you pushed(eg: **mpharma-EditForm**) to the *mpharma-EditForm** branch
 
 Wait for code review and merge. You can now delete your branch and create a new one
 reflecting the new feature that you will work on.
